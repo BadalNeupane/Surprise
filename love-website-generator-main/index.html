@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Alex+Brush&family=Allura&family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Music Control -->
+    <div class="music-control">
+        <button id="musicToggle" class="music-btn">🎵</button>
+        <audio id="bgMusic" loop>
+    <source src="abc.mp3" type="audio/mpeg">
+</audio>
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="main-title">For My Love</h1>
+            <p class="subtitle" id="subtitle">Add your partner's name in config.js ✨</p>
+        </header>
+
+        <!-- Character Section -->
+        <section class="characters-section">
+            <div class="character-container">
+                <div class="character" id="partner">
+                    <div class="character-avatar">
+                        <svg viewBox="0 0 100 100" class="character-svg">
+                            <circle cx="50" cy="35" r="20" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+                            <path d="M30 60 Q50 45 70 60 Q50 80 30 60" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+                            <circle cx="42" cy="32" r="2" fill="#FF1493"/>
+                            <circle cx="58" cy="32" r="2" fill="#FF1493"/>
+                            <path d="M45 40 Q50 45 55 40" stroke="#FF1493" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 id="partnerName">Your Love 💕</h3>
+                    <p id="partnerDescription">My beautiful angel</p>
+                </div>
+                
+                <div class="love-heart">
+                    <svg viewBox="0 0 50 50" class="heart-svg">
+                        <path d="M25 45 C25 45, 5 25, 5 15 C5 10, 10 5, 15 5 C20 5, 25 10, 25 15 C25 10, 30 5, 35 5 C40 5, 45 10, 45 15 C45 25, 25 45, 25 45 Z" fill="#FF69B4"/>
+                    </svg>
+                </div>
+
+                <div class="character" id="you">
+                    <div class="character-avatar">
+                        <svg viewBox="0 0 100 100" class="character-svg">
+                            <circle cx="50" cy="35" r="20" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+                            <rect x="35" y="55" width="30" height="25" rx="5" fill="#87CEEB" stroke="#4682B4" stroke-width="2"/>
+                            <circle cx="42" cy="32" r="2" fill="#4682B4"/>
+                            <circle cx="58" cy="32" r="2" fill="#4682B4"/>
+                            <path d="M45 40 Q50 45 55 40" stroke="#4682B4" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 id="yourName">Me 💙</h3>
+                    <p id="yourDescription">Forever yours</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Love Section -->
+        <section class="interaction-section">
+            <button id="loveButton" class="love-btn">Click for a surprise 💝</button>
+            <div id="loveNote" class="love-note">
+                <p id="loveNoteText">Add your love message in config.js 💖</p>
+            </div>
+        </section>
+
+        <!-- Memory Gallery -->
+        <section class="memory-gallery">
+            <h2>Our Beautiful Memories Together 💫</h2>
+            <div class="memories-grid">
+                <div class="memory-card" data-memory="late-night">
+                    <div class="memory-icon">🌙</div>
+                    <h3>FirstMeeting</h3>
+                    <p id="memoryLateNight"> The day everything changed without either of us realizing it.</p>
+                </div>
+                <div class="memory-card" data-memory="first-meeting">
+                    <div class="memory-icon">💫</div>
+                    <h3>firstsmile</h3>
+                    <p id="memoryFirstMeeting">That smile... the one that stayed in my mind long after the moment ended.</p>
+                </div>
+                <div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>lateNight</h3>
+                    <p id="memoryCare">Those late-night conversations where hours disappeared like seconds. </p>
+                </div>
+                <div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>Laughter</h3>
+                    <p id="memoryCare">The little laughs that somehow made every bad day feel lighter.</p>
+                </div>
+                <div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>eyes</h3>our eyes always seemed to say things that words never could</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>Care</h3>
+                    <p id="memoryCare">The quiet way you cared for people, expecting nothing in return.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>kidness</h3>
+                    <p id="memoryCare">Your kindness is one of those rare things this world needs more of.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>Voice</h3>
+                    <p id="memoryCare">Your voice has a strange way of making everything feel calm.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>Sunshine</h3>
+                    <p id="memoryCare">You have this beautiful habit of making ordinary moments feel special.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>memories</h3>
+                    <p id="memoryCare">Some memories fade with time... the ones with you never do.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>distance</h3>
+                    <p id="memoryCare">Even when distance exists, some people never really feel far away.</P>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>Smile</h3>
+                    <p id="memoryCare">If I could keep one thing forever, it would be your smile.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>stars</h3>
+                    <p id="memoryCare">Some people look at the stars for wishes... I was simply grateful to have met you.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>chapter</h3>
+                    <p id="memoryCare">Every beautiful story has a chapter that changes everything. You became mine.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>wish</h3>
+                    <p id="memoryCare">I don't know what tomorrow brings, but I'm thankful you became part of my today.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>forever</h3>
+                    <p id="memoryCare">Some people leave footprints in our lives without even trying.</p>
+                </div><div class="memory-card" data-memory="care">
+                    <div class="memory-icon">💕</div>
+                    <h3>special</h3>
+                    <p id="memoryCare">This little website isn't perfect... but every part of it was made while thinking about you. ❤️</p>
+                </div>  
+            </div>
+        </section>
+
+        <!-- Love Meter -->
+        <section class="love-meter-section">
+            <h2>How Much I Love You 💕</h2>
+            <div class="love-meter">
+                <div class="meter-fill"></div>
+                <span class="love-percentage">∞%</span>
+            </div>
+        </section>
+
+        <!-- Kiss Counter Game -->
+        <section class="game-section">
+            <h2>Virtual Kisses 💋</h2>
+            <div class="kiss-counter">
+                <span id="kissCount">0</span>
+                <button id="kissButton" class="kiss-btn">Send a Kiss 💋</button>
+            </div>
+            <div class="kiss-effects"></div>
+        </section>
+
+       <!-- Special Message -->
+<section class="special-message">
+    <div class="message-container">
+
+        <h2 id="specialMessageTitle">
+            This Was Made Just For You ❤️
+        </h2>
+
+        <p id="specialMessage1">
+            If you're reading this, thank you for giving this little surprise a chance.
+            Every animation, every picture, every line of code on this page was created
+            while thinking about you. I didn't want to send you an ordinary message.
+            I wanted to create something that would exist only for you.
+        </p>
+
+        <p id="specialMessage2">
+            You probably don't realize how special you are. The way you smile, the way
+            you care about people, and the little things you do without expecting
+            anything in return are what make you unforgettable. Some people leave
+            memories... you leave a feeling that stays long after the moment is over.
+        </p>
+
+        <p id="specialMessage3">
+            I don't know what tomorrow will bring, and I'm not asking you for anything.
+            I only hope that, for a few minutes today, this little website reminded you
+            that there is someone who genuinely appreciates you and wanted to make you
+            smile.
+        </p>
+
+        <div class="signature" id="signature">
+            Made with ❤️, one line of code at a time.
+        </div>
+
+    </div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
