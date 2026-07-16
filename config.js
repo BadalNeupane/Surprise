@@ -3,10 +3,10 @@
 
 const CONFIG = {
     // Partner's name (will be used throughout the website)
-    partnerName: "My love",
+    partnerName: "My love , Rakshya",
     
-    // Your name (optional, for signature)
-    yourName: "Yours",
+    // // Your name (optional, for signature)
+    // yourName: "Yours",
     
     messages: {
     subtitle: "Every little part of this page was created while thinking about you ✨",
@@ -26,44 +26,44 @@ memories: {
 
     firstMeeting: "The day everything changed without either of us realizing it.",
 
-    firstSmile: "That smile... the one that stayed in my mind long after the moment ended.",
+    // firstSmile: "That smile... the one that stayed in my mind long after the moment ended.",
 
-    lateNight: "Those late-night conversations where hours disappeared like seconds.",
+    // lateNight: "Those late-night conversations where hours disappeared like seconds.",
 
-    laughter: "The little laughs that somehow made every bad day feel lighter.",
+    // laughter: "The little laughs that somehow made every bad day feel lighter.",
 
-    eyes: "Your eyes always seemed to say things that words never could.",
+    // eyes: "Your eyes always seemed to say things that words never could.",
 
-    care: "The quiet way you cared for people, expecting nothing in return.",
+    // care: "The quiet way you cared for people, expecting nothing in return.",
 
-    kindness: "Your kindness is one of those rare things this world needs more of.",
+    // kindness: "Your kindness is one of those rare things this world needs more of.",
 
-    voice: "Your voice has a strange way of making everything feel calm.",
+    // voice: "Your voice has a strange way of making everything feel calm.",
 
-    sunshine: "You have this beautiful habit of making ordinary moments feel special.",
+    // sunshine: "You have this beautiful habit of making ordinary moments feel special.",
 
-    memories: "Some memories fade with time... the ones with you never do.",
+    // memories: "Some memories fade with time... the ones with you never do.",
 
-    distance: "Even when distance exists, some people never really feel far away.",
+    // distance: "Even when distance exists, some people never really feel far away.",
 
-    smile: "If I could keep one thing forever, it would be your smile.",
+    // smile: "If I could keep one thing forever, it would be your smile.",
 
-    stars: "Some people look at the stars for wishes... I was simply grateful to have met you.",
+    // stars: "Some people look at the stars for wishes... I was simply grateful to have met you.",
 
-    chapter: "Every beautiful story has a chapter that changes everything. You became mine.",
+    // chapter: "Every beautiful story has a chapter that changes everything. You became mine.",
 
-    wish: "I don't know what tomorrow brings, but I'm thankful you became part of my today.",
+    // wish: "I don't know what tomorrow brings, but I'm thankful you became part of my today.",
 
-    forever: "Some people leave footprints in our lives without even trying.",
+    // forever: "Some people leave footprints in our lives without even trying.",
 
-    special: "This little website isn't perfect... but every part of it was made while thinking about you. ❤️"
+    // special: "This little website isn't perfect... but every part of it was made while thinking about you. ❤️"
 
 },
     
     // Character descriptions
     characters: {
         partner: "My beautiful angel",
-        you: "Forever yours"
+        // you: "Forever yours"
     },
     
     // Special messages for different kiss counts

@@ -221,7 +221,7 @@ body {
     text-align: center;
     margin: 4rem 0;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(230, 207, 207, 0.95);
     border-radius: 2rem;
     box-shadow: 0 10px 40px var(--shadow);
     backdrop-filter: blur(10px);
@@ -306,7 +306,7 @@ body {
 }
 
 .memories-grid {
-    display: grid;
+   
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
@@ -321,6 +321,9 @@ body {
     transition: all 0.3s ease;
     cursor: pointer;
     border: 2px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .memory-card:hover {
@@ -331,7 +334,6 @@ body {
 .memory-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
-    animation: spin 3s linear infinite;
 }
 
 @keyframes spin {
@@ -354,7 +356,16 @@ body {
     font-size: 1.1rem;
     line-height: 1.6;
 }
+.memory-card img {
+   width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: contain;      /* Shows the whole image */
+    object-position: center;
+    border-radius: 15px;
+    background: white;
 
+}
 /* Love Meter */
 .love-meter-section {
     margin: 4rem 0;
