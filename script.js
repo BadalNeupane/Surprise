@@ -97,25 +97,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Music Control
-    const musicToggle = document.getElementById('musicToggle');
-    const bgMusic = document.getElementById('bgMusic');
-    let isPlaying = false;
+    
+ const bgMusic = document.getElementById("bgMusic");
 
-    musicToggle.addEventListener('click', function() {
-        if (isPlaying) {
-            bgMusic.pause();
-            musicToggle.textContent = '🎵';
-            isPlaying = false;
-        } else {
-            bgMusic.play().then(() => {
-                musicToggle.textContent = '🔊';
-                isPlaying = true;
-            }).catch(() => {
-                musicToggle.textContent = '❌';
-                console.log('Music could not be played');
-            });
-        }
+bgMusic.play()
+    .then(() => {
+        console.log("Music started");
+    })
+    .catch(err => {
+        console.log("Music blocked:", err);
     });
 
     // Love Note Toggle
